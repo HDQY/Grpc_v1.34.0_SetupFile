@@ -1,0 +1,13 @@
+prefix=/home/sa/Grpc_Install
+exec_prefix=/home/sa/Grpc_Install
+libdir=/home/sa/Grpc_Install/lib
+sharedlibdir=/home/sa/Grpc_Install/lib
+includedir=/home/sa/Grpc_Install/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

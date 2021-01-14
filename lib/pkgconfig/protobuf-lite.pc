@@ -1,0 +1,11 @@
+prefix=/home/sa/Grpc_Install
+exec_prefix=/home/sa/Grpc_Install
+libdir=/home/sa/Grpc_Install/lib
+includedir=/home/sa/Grpc_Install/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.13.0.0
+Libs: -L${libdir} -lprotobuf-lite -lpthread
+Cflags: -I${includedir} -lpthread
+Conflicts: protobuf
